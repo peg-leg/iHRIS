@@ -1,6 +1,10 @@
 # Installation
 This was done on a clean Ubuntu 20.4 server.
 
+## Java
+```bash
+sudo apt install -y openjdk-11-jdk-headless
+```
 ## Node JS LTS
 ```bash
 curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
